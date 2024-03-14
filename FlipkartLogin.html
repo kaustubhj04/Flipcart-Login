@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(4, 56, 87);
+        }
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        #parent{
+            height: 550px;
+            width: 700px;
+            border: 2px solid;
+            margin: 0 auto;
+            margin-top: 250px;
+            display: flex;
+        }
+        .box{
+            height: 548px;
+            width: 275px;
+            border: 2px solid;
+            background-color:#2370f4;
+        }
+        #box2{
+            width: 423px;
+            background-color: white;
+            text-align:center;
+            /* background: transparent; */
+        }
+        #form{
+            height: 400px;
+            width: 340px;
+            margin: 0 auto;
+            margin-top: 25px;
+            /* border: 2px solid; */
+            /* border-bottom: 2px solid; */
+            /* text-align: justify; */
+        }
+        .input{
+            height: 50px;
+            width: 338px;
+            margin: 0 auto;
+            margin-top: 35px;
+            border: none;
+            outline: none;
+            border-bottom: 2px solid;
+            font-size: 18px;
+            color: #2455f4;
+        }
+        .s1{
+            height: 40px;
+            width: 338px;
+            margin: 0 auto;
+            margin-top: 35px;
+            font-size: 13px;
+            font-family: sans-serif;
+            text-align: justify;
+        }
+        #Login{
+            font-size: 17px;
+            color: white;
+            background-color: orangered;
+            font-family:Roboto,arial, sans-serif;
+            letter-spacing: 0;
+            margin-top: 5px;
+        }
+        a{
+            color: #2874f0;
+            font-family: Roboto,Arial,sans-serif;
+        }
+       #OTP{
+         margin-top: 17px;
+         outline: none;
+         border: none;
+         background-color: white;
+         box-shadow: 1px 1px 2px 0.5px rgb(153,144,144);
+         font-size: 17px;
+         color: #2455f4;
+         font-family: Arial, sans-serif;
+        }
+        #b1{
+         height: 450px;
+         width: 225px;
+         /* border: 1px solid; */
+         margin:0 auto;
+         margin-top: 50px;
+         font-family:arial,sans-serif;
+         background-image: url(./flipkart_icon-icons.com_62718.png);
+         background-position: center 85%;
+         background-repeat: no-repeat;
+         background-position:bottom;
+        }
+        p{
+         font-size: 30px;
+         font-weight: 600;
+         color: white;
+        }
+        span{
+         line-height: 150%;
+         color: #dbdbdb;
+         font-size: 20px;
+        }
+        #or{
+         margin-top: 17.5px;
+         text-align: center;
+         color: black;
+        }
+        #new{
+         font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <div id="parent">
+        <div class="box" id="box1">
+            <div id="b1">
+                <p>Login</p>
+              <br>
+              <span>Get access to you orders,wishlist and recommandation</span>
+            </div>
+            </div>
+    <div class="box" id="box2">
+       <form action="" id="form">
+        <div>
+            <input class="input" type="email" name="" id="" placeholder="Enter Email/Mobile Number"><br>
+            <input class="input" type="password" name="" id="" placeholder="Enter Password">
+           </div>
+              <div class="s1">By Continuing,You Agree To Flipkart's <a id="link" href="">Terms Of Use</a>and <a id="link" href="">Privacy Policy.</a></p></div>
+              <div>
+               <input  class="input" id="Login" type="submit" name="" volue="Login">
+              </div>
+              <div id="or">OR</div>
+              <div>
+                <input class="input" id="OTP" type="submit" value="Request OTP">
+              </div>
+              <br><br><br><br>
+           <div id="new"><a href="">New to Flipkart? create an account</a></div>
+         </form>
+      </div>
+    </div>
+</main>
+</body>
+</html>
